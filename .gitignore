@@ -35,5 +35,5 @@ pids/
 *.db
 
 # Optional: uploads folder (jika tidak ingin di-track)
-uploads/
+# uploads/
 public/uploads/
