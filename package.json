@@ -1,5 +1,5 @@
 {
-  "name": "movie-service-be-1",
+  "name": "movie-service-be-advanced",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,18 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pradenamulya/movie-service-be-1.git"
+    "url": "git+https://github.com/pradenamulya/movie-service-be-advanced.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pradenamulya/movie-service-be-1/issues"
+    "url": "https://github.com/pradenamulya/movie-service-be-advanced/issues"
   },
-  "homepage": "https://github.com/pradenamulya/movie-service-be-1#readme",
+  "homepage": "https://github.com/pradenamulya/movie-service-be-advanced#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "mysql2": "^3.14.3"
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.3",
+    "nodemailer": "^7.0.5",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
