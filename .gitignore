@@ -33,7 +33,6 @@ pids/
 # Optional: local database or dump
 *.sqlite
 *.db
-*.sql
 
 # Optional: uploads folder (jika tidak ingin di-track)
 uploads/
