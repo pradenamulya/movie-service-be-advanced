@@ -1,7 +1,9 @@
 const repo = require("../repositories/movie.repository");
 const Movie = require("../models/movie.model");
 
-const getAllMovies = () => repo.getAllMovies();
+const getAllMovies = (queryParams) => {
+    return repo.getAllMovies(queryParams);
+};
 const getMovieById = (id) => repo.getMovieById(id);
 
 const createMovie = (data) => {

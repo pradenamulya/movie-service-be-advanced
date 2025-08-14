@@ -4,7 +4,7 @@ const { successResponse, errorResponse } = require("../utils/response");
 
 exports.getAll = async (req, res) => {
     try {
-        const result = await service.getAllMovies();
+        const result = await service.getAllMovies(req.query);
         res.json(successResponse("List of movies", result));
     } catch (err) {
         res.status(500).json(errorResponse("Failed to fetch movies", err.message));
